@@ -1,0 +1,233 @@
+"","Department","Expense_Category","TotalByDeptCategory"
+"1","ACCOUNTING AND GENERAL SERVICES                             ","BUILDINGS                                         ",13571697.3
+"2","ACCOUNTING AND GENERAL SERVICES                             ","ELECTRICITY                                       ",4092579.84
+"3","ACCOUNTING AND GENERAL SERVICES                             ","FREIGHT AND DELIVERY CHARGES                      ",96900
+"4","ACCOUNTING AND GENERAL SERVICES                             ","INSURANCE                                         ",12506551.6
+"5","ACCOUNTING AND GENERAL SERVICES                             ","LAND AND LAND IMPROVEMENTS                        ",767264.83
+"6","ACCOUNTING AND GENERAL SERVICES                             ","MACHINERY AND EQUIPMENT                           ",1941154.11
+"7","ACCOUNTING AND GENERAL SERVICES                             ","OTHER CAPITAL OUTLAY                              ",645386.92
+"8","ACCOUNTING AND GENERAL SERVICES                             ","OTHER CURRENT EXPENDITURES                        ",2681128.73
+"9","ACCOUNTING AND GENERAL SERVICES                             ","OTHER GRANTS-IN-AID                               ",359433
+"10","ACCOUNTING AND GENERAL SERVICES                             ","OTHER RENTALS                                     ",476952.09
+"11","ACCOUNTING AND GENERAL SERVICES                             ","PRINTING AND BINDING                              ",31717.79
+"12","ACCOUNTING AND GENERAL SERVICES                             ","RENTAL OF EQUIPMENT                               ",1666272
+"13","ACCOUNTING AND GENERAL SERVICES                             ","RENTAL OF LAND AND BUILDING                       ",2393852.73
+"14","ACCOUNTING AND GENERAL SERVICES                             ","REPAIRS AND MAINTENANCE                           ",1896232.65
+"15","ACCOUNTING AND GENERAL SERVICES                             ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",16480760.27
+"16","ACCOUNTING AND GENERAL SERVICES                             ","TELEPHONE AND TELEGRAPH                           ",563870.64
+"17","AGRICULTURE                                                 ","AGRICULTURAL LOAN REVOLVING FUND LOANS            ",1291000
+"18","AGRICULTURE                                                 ","ALL OTHER MACHINERY & EQUIPMENT                   ",25350
+"19","AGRICULTURE                                                 ","EDP CONSULTANT SERVICES (NOT STATE)               ",129423.36
+"20","AGRICULTURE                                                 ","ELECTRICITY                                       ",108129.29
+"21","AGRICULTURE                                                 ","IRRIGATION MATERIALS & INSTALLATION               ",99733.6
+"22","AGRICULTURE                                                 ","MOTOR VEHICLES                                    ",28547
+"23","AGRICULTURE                                                 ","OTHER MISC CURRENT EXPENDITURES                   ",215846.3
+"24","AGRICULTURE                                                 ","OTHER R & M                                       ",43500
+"25","AGRICULTURE                                                 ","OTHR MATERIALS & SUPPLIES- CALLING CARDS          ",685364.81
+"26","AGRICULTURE                                                 ","SCIENTIFIC INSTRUMENTS & EQUIPMENT                ",62430.59
+"27","AGRICULTURE                                                 ","SERVICES-ON-A-FEE BASIS (NOT STATE EMPLOYEE)      ",5488295.59
+"28","AGRICULTURE                                                 ","TELEPHONE & TELEGRAPH                             ",34678.14
+"29","ATTORNEY GENERAL                                            ","DUES AND SUBSCRIPTIONS                            ",175605.69
+"30","ATTORNEY GENERAL                                            ","INTERGOVERNMENTAL GRANTS-IN-AID                   ",2823339.65
+"31","ATTORNEY GENERAL                                            ","JUDGMENTS AND CLAIMS                              ",1259012.44
+"32","ATTORNEY GENERAL                                            ","MACHINERY AND EQUIPMENT                           ",175745.87
+"33","ATTORNEY GENERAL                                            ","OTHER CURRENT EXPENDITURES                        ",411708.57
+"34","ATTORNEY GENERAL                                            ","REPAIRS AND MAINTENANCE                           ",729725.36
+"35","ATTORNEY GENERAL                                            ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",939231.46
+"36","BUDGET AND FINANCE                                          ","AGENCY AND CLEARING ACCOUNTS                      ",436889.31
+"37","BUDGET AND FINANCE                                          ","MACHINERY AND EQUIPMENT                           ",39572.6
+"38","BUDGET AND FINANCE                                          ","OTHER CURRENT EXPENDITURES                        ",513891.39
+"39","BUDGET AND FINANCE                                          ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",188861.13
+"40","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","BUILDINGS                                         ",3806677.72
+"41","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","ELECTRICITY                                       ",1040016.8
+"42","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","OTHER CURRENT EXPENDITURES                        ",307637.68
+"43","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","OTHER GRANTS-IN-AID                               ",314712
+"44","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","OTHER SUPPLIES                                    ",50666.95
+"45","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","PAYMENT FOR INVESTMENTS                           ",1160555.13
+"46","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","PAYMENT FOR LOANS                                 ",16389424.39
+"47","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","RENTAL OF EQUIPMENT                               ",30164.58
+"48","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","RENTAL OF LAND AND BUILDING                       ",520773.17
+"49","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","REPAIR AND MAINTENANCE SUPPLIES                   ",57260
+"50","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",9841764.54
+"51","BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM                 ","WATER                                             ",26314.15
+"52","COMMERCE AND CONSUMER AFFAIRS                               ","MACHINERY AND EQUIPMENT                           ",146319.29
+"53","COMMERCE AND CONSUMER AFFAIRS                               ","OTHER CURRENT EXPENDITURES                        ",579940
+"54","COMMERCE AND CONSUMER AFFAIRS                               ","POSTAGE                                           ",40000
+"55","COMMERCE AND CONSUMER AFFAIRS                               ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",1822534.01
+"56","DEFENSE                                                     ","BUILDINGS                                         ",5695034.81
+"57","DEFENSE                                                     ","ELECTRICITY                                       ",770257.17
+"58","DEFENSE                                                     ","FOOD SUPPLIES                                     ",223611.92
+"59","DEFENSE                                                     ","LAND AND LAND IMPROVEMENTS                        ",329017
+"60","DEFENSE                                                     ","MACHINERY AND EQUIPMENT                           ",3283455.63
+"61","DEFENSE                                                     ","OPERATING SUPPLIES                                ",31917.5
+"62","DEFENSE                                                     ","OTHER SUPPLIES                                    ",119600
+"63","DEFENSE                                                     ","REPAIRS AND MAINTENANCE                           ",1461574.72
+"64","DEFENSE                                                     ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",7522457.75
+"65","GOVERNOR                                                    ","DUES AND SUBSCRIPTIONS                            ",60700
+"66","HAWAIIAN HOME LANDS                                         ","CONSTRUCTION IN PROGRESS                          ",9874259.76
+"67","HAWAIIAN HOME LANDS                                         ","ELECTRICITY                                       ",270785.22
+"68","HAWAIIAN HOME LANDS                                         ","INTEREST ON BONDED DEBT                           ",1287170.09
+"69","HAWAIIAN HOME LANDS                                         ","MACHINERY AND EQUIPMENT                           ",148107.15
+"70","HAWAIIAN HOME LANDS                                         ","OTHER CAPITAL OUTLAY                              ",510202.4
+"71","HAWAIIAN HOME LANDS                                         ","OTHER GRANTS-IN-AID                               ",1e+05
+"72","HAWAIIAN HOME LANDS                                         ","PAYMENT FOR LOANS                                 ",1391024.61
+"73","HAWAIIAN HOME LANDS                                         ","PAYMENTS FOR DEBT RETIREMENTS                     ",336746.6
+"74","HAWAIIAN HOME LANDS                                         ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",1005945.27
+"75","HEALTH                                                      ","ADVERTISING                                       ",29222.55
+"76","HEALTH                                                      ","BARGE FREIGHT                                     ",107832.43
+"77","HEALTH                                                      ","BUILDINGS                                         ",743612.21
+"78","HEALTH                                                      ","CONSTRUCTION IN PROGRESS                          ",3946851.64
+"79","HEALTH                                                      ","DRUGS & BIOLOGICS                                 ",2251276.07
+"80","HEALTH                                                      ","DUES                                              ",35875.11
+"81","HEALTH                                                      ","ELECTRICITY                                       ",1601848.36
+"82","HEALTH                                                      ","ENGINEERING AND ARCHITECTUAL                      ",43527.65
+"83","HEALTH                                                      ","INSURANCE--COMP. GENERAL LIABILITY                ",2030886
+"84","HEALTH                                                      ","M&E--OTHER MACHINERY & EQUIPMENT                  ",762687.59
+"85","HEALTH                                                      ","M&E--PASSENGER CAR                                ",53643.4
+"86","HEALTH                                                      ","MEDICAL & SURGICAL                                ",66086.36
+"87","HEALTH                                                      ","MEDICAL SERVICES                                  ",301672.31
+"88","HEALTH                                                      ","MOTOR VEHICLE GAS & OIL                           ",112356.01
+"89","HEALTH                                                      ","OTHER CAPITAL OUTLAY--SEWERAGE CONSTRUCTION       ",305101.53
+"90","HEALTH                                                      ","OTHER CURRENT EXPENDITURES                        ",3744056.66
+"91","HEALTH                                                      ","OTHER GRANTS-IN-AID                               ",675000
+"92","HEALTH                                                      ","OTHER MISCELLANEOUS CURRENT EXPENDITURES          ",21598199.55
+"93","HEALTH                                                      ","OTHER NON-STATE EMP SVS ON A FEE BASIS            ",85945554.18
+"94","HEALTH                                                      ","OTHER PRINTING                                    ",63919.77
+"95","HEALTH                                                      ","OTHER REPAIRS & MAINTENANCE                       ",457685.56
+"96","HEALTH                                                      ","OTHER SUPPLIES                                    ",209112.4
+"97","HEALTH                                                      ","PAYMENTS FOR ADVANCES (ACCOUNTS RECEIVABLES)      ",56203434.51
+"98","HEALTH                                                      ","POSTAGE                                           ",80000
+"99","HEALTH                                                      ","R&M--MACHINERY & EQUIPMENT--SPECIAL               ",26406.05
+"100","HEALTH                                                      ","ROUTINE R&M--BUILDINGS & STRUCTURES               ",560586.47
+"101","HEALTH                                                      ","SUBSCRIPTIONS                                     ",27500
+"102","HEALTH                                                      ","TRNG. COSTS & REGISTRATION FEES                   ",26792
+"103","HUMAN RESOURCES DEVELOPMENT                                 ","MACHINERY AND EQUIPMENT                           ",129044.34
+"104","HUMAN RESOURCES DEVELOPMENT                                 ","REPAIRS AND MAINTENANCE                           ",62790.05
+"105","HUMAN SERVICES                                              ","BUILDINGS                                         ",975000
+"106","HUMAN SERVICES                                              ","DATA PROCESSING EQUIPMENT                         ",967868.3
+"107","HUMAN SERVICES                                              ","DATA PROCESSING SOFTWARE                          ",932487.96
+"108","HUMAN SERVICES                                              ","ELECTRICITY                                       ",26758.95
+"109","HUMAN SERVICES                                              ","EMPLOYMENT AND TRAINING SERVICES                  ",3e+05
+"110","HUMAN SERVICES                                              ","GRANTS-IN-AID                                     ",4e+05
+"111","HUMAN SERVICES                                              ","INSURANCE                                         ",285101.94
+"112","HUMAN SERVICES                                              ","MACHINERY AND EQUIPMENT - CHAIRS                  ",26671.94
+"113","HUMAN SERVICES                                              ","MEDICAID FISCAL AGENT COSTS                       ",4514842.07
+"114","HUMAN SERVICES                                              ","OTHER CAPITAL OUTLAY                              ",2376829.9
+"115","HUMAN SERVICES                                              ","OTHER CURRENT EXPENDITURES                        ",6502424.57
+"116","HUMAN SERVICES                                              ","OTHER RENTALS                                     ",350947.97
+"117","HUMAN SERVICES                                              ","OTHER SERVICES ON A FEE BASIS                     ",30245436.77
+"118","HUMAN SERVICES                                              ","POSTAGE                                           ",726600
+"119","HUMAN SERVICES                                              ","PRINTING AND BINDING                              ",349663.58
+"120","HUMAN SERVICES                                              ","PUBLIC ASSIST GOODS TO VENDORS/PROVIDERS          ",48240768.55
+"121","HUMAN SERVICES                                              ","PUBLIC ASSIST SVCS TO VENDORS/PROVIDERS           ",922166470.56
+"122","HUMAN SERVICES                                              ","PURCHASE OF SERVICE PAYMENTS                      ",24121673.75
+"123","HUMAN SERVICES                                              ","RENTAL OF LAND, BUILDING OR SPACE IN BUILDING     ",127298.1
+"124","HUMAN SERVICES                                              ","REPAIRS AND MAINTENANCE                           ",874088
+"125","HUMAN SERVICES                                              ","REPAIRS AND MAINTENANCE - BUILDING AND STRUCTURES ",189420
+"126","HUMAN SERVICES                                              ","REPAIRS AND MAINTENANCE - DATA PROCESSING EQUIP.  ",240521.78
+"127","HUMAN SERVICES                                              ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",323681.54
+"128","HUMAN SERVICES                                              ","UTILITIES: ELECTRICITY                            ",391222.05
+"129","LABOR AND INDUSTRIAL RELATIONS                              ","AGENCY AND CLEARING ACCOUNTS                      ",466809.63
+"130","LABOR AND INDUSTRIAL RELATIONS                              ","INTERGOVERNMENTAL GRANTS-IN-AID                   ",3987528.4
+"131","LABOR AND INDUSTRIAL RELATIONS                              ","MACHINERY AND EQUIPMENT                           ",42414.08
+"132","LABOR AND INDUSTRIAL RELATIONS                              ","OTHER CURRENT EXPENDITURES                        ",201882
+"133","LABOR AND INDUSTRIAL RELATIONS                              ","OTHER GRANTS-IN-AID                               ",3013448.56
+"134","LABOR AND INDUSTRIAL RELATIONS                              ","POSTAGE                                           ",175000
+"135","LABOR AND INDUSTRIAL RELATIONS                              ","RENTAL OF LAND AND BUILDING                       ",45543.66
+"136","LABOR AND INDUSTRIAL RELATIONS                              ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",236345.72
+"137","LAND AND NATURAL RESOURCES                                  ","INTERGOVERNMENTAL GRANTS-IN-AID                   ",463250
+"138","LAND AND NATURAL RESOURCES                                  ","LAND AND LAND IMPROVEMENTS                        ",28269364.43
+"139","LAND AND NATURAL RESOURCES                                  ","M & E - GROUND MAINT EQUIP                        ",67037.19
+"140","LAND AND NATURAL RESOURCES                                  ","M & E - MOTOR VEHICLES                            ",547843.6
+"141","LAND AND NATURAL RESOURCES                                  ","M & E - RADIO INCLUDING REPEATERS                 ",61813
+"142","LAND AND NATURAL RESOURCES                                  ","M & E- TELEPHONES, INCLUDING ANSWERING MACHINES   ",32368.89
+"143","LAND AND NATURAL RESOURCES                                  ","MACHINERY AND EQUIPMENT                           ",173948.77
+"144","LAND AND NATURAL RESOURCES                                  ","OPERATING SUPPLIES                                ",735038.13
+"145","LAND AND NATURAL RESOURCES                                  ","OTHER CAPITAL OUTLAY                              ",47661.66
+"146","LAND AND NATURAL RESOURCES                                  ","OTHER CURRENT EXPENDITURES                        ",118927.69
+"147","LAND AND NATURAL RESOURCES                                  ","OTHER GRANTS-IN-AID                               ",227859
+"148","LAND AND NATURAL RESOURCES                                  ","R&M - BLDG & STRUCT / SPECIAL                     ",94701
+"149","LAND AND NATURAL RESOURCES                                  ","R&M - BOATING FACILITY - SPECIAL                  ",2211254.77
+"150","LAND AND NATURAL RESOURCES                                  ","R&M - GROUNDS / ROUTINE                           ",100689.2
+"151","LAND AND NATURAL RESOURCES                                  ","R&M - GROUNDS / SPECIAL                           ",1672168.11
+"152","LAND AND NATURAL RESOURCES                                  ","R&M MAT & SUP - BLDG & CONS                       ",48000
+"153","LAND AND NATURAL RESOURCES                                  ","RENTAL OF LAND & BUILDINGS                        ",50699.28
+"154","LAND AND NATURAL RESOURCES                                  ","SERVICES ON FEE BASIS (OTHER THAN STATE EMPLOYEES)",4237713.5
+"155","LAND AND NATURAL RESOURCES                                  ","SVC - ACCOUNTING & AUDITING                       ",73141.33
+"156","LAND AND NATURAL RESOURCES                                  ","SVC - APPRAISERS (DEPT PAYS)                      ",28500
+"157","LAND AND NATURAL RESOURCES                                  ","SVC - EDP CONSULTANT                              ",260719.65
+"158","LAND AND NATURAL RESOURCES                                  ","SVC - ENGINEER & ARCHITECT                        ",2983154.16
+"159","LAND AND NATURAL RESOURCES                                  ","WATER                                             ",26674.99
+"160","LIEUTENANT GOVERNOR                                         ","OTHER CURRENT EXPENDITURES                        ",2e+05
+"161","PUBLIC SAFETY                                               ","BUILDINGS                                         ",28263
+"162","PUBLIC SAFETY                                               ","ELECTRICITY                                       ",1874433.88
+"163","PUBLIC SAFETY                                               ","FOOD SUPPLIES                                     ",719594.83
+"164","PUBLIC SAFETY                                               ","GAS                                               ",187589.4
+"165","PUBLIC SAFETY                                               ","ITEMS FOR RESALE OR REISSUE                       ",542297.65
+"166","PUBLIC SAFETY                                               ","MACHINERY AND EQUIPMENT                           ",1778040.21
+"167","PUBLIC SAFETY                                               ","OPERATING SUPPLIES                                ",106456.43
+"168","PUBLIC SAFETY                                               ","OTHER CURRENT EXPENDITURES                        ",5268038.37
+"169","PUBLIC SAFETY                                               ","OTHER SUPPLIES                                    ",85187.27
+"170","PUBLIC SAFETY                                               ","RENTAL OF LAND AND BUILDING                       ",285999.67
+"171","PUBLIC SAFETY                                               ","REPAIR AND MAINTENANCE SUPPLIES                   ",39478.91
+"172","PUBLIC SAFETY                                               ","REPAIRS AND MAINTENANCE                           ",980384.83
+"173","PUBLIC SAFETY                                               ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",3013061.33
+"174","PUBLIC SAFETY                                               ","SEWER                                             ",647349.06
+"175","PUBLIC SAFETY                                               ","TELEPHONE AND TELEGRAPH                           ",84977.92
+"176","PUBLIC SAFETY                                               ","WATER                                             ",98647.22
+"177","TAXATION                                                    ","DUES AND SUBSCRIPTIONS                            ",249006
+"178","TAXATION                                                    ","OFFICE SUPPLIES                                   ",39347.89
+"179","TAXATION                                                    ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",387414.37
+"180","TAXATION                                                    ","TELEPHONE AND TELEGRAPH                           ",27866.5
+"181","TRANSPORTATION                                              ","ADVERTISING                                       ",35000
+"182","TRANSPORTATION                                              ","BUILDINGS                                         ",45339319.83
+"183","TRANSPORTATION                                              ","COMPUTER SOFTWARE                                 ",119879.12
+"184","TRANSPORTATION                                              ","CONSTRUCTION ADMIN. CHARGE (DEBIT)                ",387975.25
+"185","TRANSPORTATION                                              ","CONSTRUCTION IN PROGRESS                          ",18973384.58
+"186","TRANSPORTATION                                              ","COUNTY SERVICES                                   ",759834.58
+"187","TRANSPORTATION                                              ","DUES                                              ",75206
+"188","TRANSPORTATION                                              ","EDP CONSULTANT SERVICES                           ",2084763
+"189","TRANSPORTATION                                              ","EDP MAINTENANCE EXPENSE                           ",706643.35
+"190","TRANSPORTATION                                              ","ELECTRICITY                                       ",19142429.07
+"191","TRANSPORTATION                                              ","ENGINEERING AND ARCHITECTURAL                     ",26650563.88
+"192","TRANSPORTATION                                              ","ENVIRONMENTAL SERVICES - OTHERS                   ",197806.72
+"193","TRANSPORTATION                                              ","EQUIPMENT OTHERWISE NOT CLASSIFIED                ",128522.48
+"194","TRANSPORTATION                                              ","GROUND MAINTENANCE EQUIPMENT                      ",436861.58
+"195","TRANSPORTATION                                              ","HWY C&M - GUARDRAIL & POST                        ",79950
+"196","TRANSPORTATION                                              ","INVENTORY - MATERIALS AND SUPPLIES                ",111256.5
+"197","TRANSPORTATION                                              ","LAND AND INTEREST IN LAND                         ",107330.04
+"198","TRANSPORTATION                                              ","LAND IMPROVEMENT - AIRPORTS                       ",35132080.48
+"199","TRANSPORTATION                                              ","LAND IMPROVEMENT - HARBORS                        ",1164444
+"200","TRANSPORTATION                                              ","LAND IMPROVEMENT - HIGHWAYS AND STREETS           ",87974415.78
+"201","TRANSPORTATION                                              ","MEDICAL SERVICES                                  ",772055.91
+"202","TRANSPORTATION                                              ","OTHER BOND ISSUANCE AND REDEMPTION EXPENSE        ",40726.25
+"203","TRANSPORTATION                                              ","OTHER EDP EQUIPMENT                               ",272918.2
+"204","TRANSPORTATION                                              ","OTHER GRANTS-IN-AID                               ",4050067.77
+"205","TRANSPORTATION                                              ","OTHER INSURANCE AND BONDS                         ",834498.83
+"206","TRANSPORTATION                                              ","OTHER LAND IMPROVEMENTS                           ",105156.08
+"207","TRANSPORTATION                                              ","OTHER MISCELLANEOUS EXPENDITURES                  ",45445.01
+"208","TRANSPORTATION                                              ","OTHER MOTOR VEHICLES                              ",811671.57
+"209","TRANSPORTATION                                              ","OTHER OPERATING SUPPLIES NOT CLASSIFIED           ",154244.6
+"210","TRANSPORTATION                                              ","PERSONAL SERVICES RENDERED BY OTHERS              ",9459172.37
+"211","TRANSPORTATION                                              ","R&M - BUILDING AND STRUCTURE - ROUTINE            ",236476.85
+"212","TRANSPORTATION                                              ","R&M - BUILDING AND STRUCTURE - SPECIAL            ",3703358.38
+"213","TRANSPORTATION                                              ","R&M - GROUNDS - ROUTINE                           ",2087610.16
+"214","TRANSPORTATION                                              ","R&M - GROUNDS - SPECIAL                           ",32595189.13
+"215","TRANSPORTATION                                              ","R&M - HARBORS SPECIAL MAINTENANCE                 ",3958827.85
+"216","TRANSPORTATION                                              ","R&M - HIGHWAYS                                    ",1213090.8
+"217","TRANSPORTATION                                              ","R&M - MACHINERY AND EQUIPMENT - ROUTINE           ",6552099.96
+"218","TRANSPORTATION                                              ","R&M - MACHINERY AND EQUIPMENT - SPECIAL           ",1877042.53
+"219","TRANSPORTATION                                              ","R&M - OTHERS - ROUTINE                            ",255300.28
+"220","TRANSPORTATION                                              ","R&M - OTHERS - SPECIAL                            ",7002947.22
+"221","TRANSPORTATION                                              ","R&M - TAXIWAYS AND RUNWAYS - ROUTINE              ",3718874.89
+"222","TRANSPORTATION                                              ","REFUND OF CONTRACTORS AND OTHER DEPOSITS          ",57503.1
+"223","TRANSPORTATION                                              ","RENTAL OF LAND & BUILDING                         ",67532
+"224","TRANSPORTATION                                              ","REPAIRS AND MAINTENANCE                           ",182960.07
+"225","TRANSPORTATION                                              ","SCIENTIFIC EQUIPMENT                              ",28240
+"226","TRANSPORTATION                                              ","SECURITY SERVICES (OTHER THAN COUNTY POLICE)      ",18575502.68
+"227","TRANSPORTATION                                              ","SERVICES OF FEE BASIS (OTHER THAN STATE EMPLOYEES)",7498314.61
+"228","TRANSPORTATION                                              ","SEWER                                             ",2442731.71
+"229","TRANSPORTATION                                              ","STORES PURCHASES FOR REISSUE (DEBIT)              ",758815.68
+"230","TRANSPORTATION                                              ","TRAINING COST AND REGISTRATION FEES               ",108220
+"231","TRANSPORTATION                                              ","TRUCKS AND TRAILERS                               ",780474.58
+"232","TRANSPORTATION                                              ","WATER                                             ",1195700.66
