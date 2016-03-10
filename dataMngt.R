@@ -28,8 +28,8 @@ library(plyr)
 library(stringr)
 
 ## importing csc data files
-exp <- read.csv("data/HawaiiBudgetExpenditures/data/Expenditures.csv")
-op <- read.csv("data/projs/HawaiiBudgetExpenditures/data/budget.csv")
+exp <- read.csv("data/Expenditures.csv")
+op <- read.csv("data/budget.csv")
 
 ## trimming white spaces
 exp$Department <- str_trim(exp$Department, side=c("both"))
@@ -43,6 +43,7 @@ dep_cat_op15 <- ddply(op[op$Fiscal.Year==2015,], .(Department), summarize, Budge
 
 ## Merging data by Department
 mergedData <- join(dep_cat_exp15, dep_op_15, by=c('Department') , type="left")
+names(mergedData) <- c("Department", "Expense_Category", "TotalExpense", "TotalBudget")
 
 ## write to csv file
-write.csv(mergedData, "data/StateSpending15_final.csv") 
+write.csv(mergedData, "data/MergedData.csv") 
