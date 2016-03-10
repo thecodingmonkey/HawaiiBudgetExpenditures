@@ -14,6 +14,9 @@
 ### simplify the project for prototype purposes, and to show what can be achieved, we decided to summarize data 
 ### at department level only
 
+### Initial cleaning of data was done in Excel
+###   "Dept of", and "Department of" were eliminated for consistency across datasets
+
 ### This R script is used to
 ### 1. subset data for FY2015
 ### 2. clean out white spaces for department names
@@ -34,6 +37,10 @@ op <- read.csv("data/budget.csv")
 ## trimming white spaces
 exp$Department <- str_trim(exp$Department, side=c("both"))
 op$Department <- str_trim(op$Department, side=c("both"))
+
+exp[exp$Department=="BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM",]$Department = "BUSINESS, ECONOMIC DEVELOPMENT AND TOURISM"
+
+
 
 ## subset data for 2015 and sum the total expenditure amount by department and category (Expenditure data)
 dep_cat_exp15 <- ddply(exp[exp$Fiscal_Year==2015, ], .(Department, Expense_Category), summarize, Expediture_DepCat15 = sum(Amount))
