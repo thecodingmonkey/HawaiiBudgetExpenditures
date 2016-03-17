@@ -53,4 +53,6 @@ mergedData <- join(dep_cat_exp15, dep_op_15, by=c('Department') , type="left")
 names(mergedData) <- c("Department", "Expense_Category", "TotalExpense", "TotalBudget")
 
 ## write to csv file
-write.csv(mergedData, "data/MergedData.csv") 
+write.csv(mergedData, "../data/MergedData.csv") 
+
+ 
