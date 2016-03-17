@@ -1,0 +1,55 @@
+<html>
+<!--
+  from: https://developers.google.com/chart/interactive/docs/gallery/sankey#multilevel-sankeys
+ -->
+<header>
+<body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<h2>Hawaii Budget by Department ($M)</h2>
+
+<div id="sankey_multiple" style="width: 900px; height: 700px;"></div>
+
+<script type="text/javascript">
+  google.charts.load("current", {packages:["sankey"]});
+  google.charts.setOnLoadCallback(drawChart);
+   function drawChart() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'From');
+    data.addColumn('string', 'To');
+    data.addColumn('number', 'Amount ($M)');
+    data.addRows([
+        [ 'Total Budget', 'TAXATION', 0 ],
+        [ 'Total Budget', 'BUSINESS, ECONOMIC DEVELOPMENT AND TOURISM', 33 ],
+        [ 'Total Budget', 'LAND AND NATURAL RESOURCES', 42 ],
+        [ 'Total Budget', 'ATTORNEY GENERAL', 6 ],
+        [ 'Total Budget', 'AGRICULTURE', 8 ],
+        [ 'Total Budget', 'PUBLIC SAFETY', 15 ],
+        [ 'Total Budget', 'ACCOUNTING AND GENERAL SERVICES', 60 ],
+        [ 'Total Budget', 'GOVERNOR', 0 ],
+        [ 'Total Budget', 'LABOR AND INDUSTRIAL RELATIONS', 8 ],
+        [ 'Total Budget', 'TRANSPORTATION', 349 ],
+        [ 'Total Budget', 'DEFENSE', 19 ],
+        [ 'Total Budget', 'HEALTH', 181 ],
+        [ 'Total Budget', 'LIEUTENANT GOVERNOR', 0 ],
+        [ 'Total Budget', 'HUMAN RESOURCES DEVELOPMENT', 0 ],
+        [ 'Total Budget', 'HUMAN SERVICES', 1040 ],
+        [ 'Total Budget', 'BUDGET AND FINANCE', 1 ],
+        [ 'Total Budget', 'COMMERCE AND CONSUMER AFFAIRS', 2 ],
+        [ 'Total Budget', 'HAWAIIAN HOME LANDS', 14 ]
+    ]);
+
+    // Set chart options
+    var options = {
+      height: 700,
+      width: 600,
+      //sankey: { node: {nodePadding: 10 } },
+    };
+
+    // Instantiate and draw our chart, passing in some options.
+    var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
+    chart.draw(data, options);
+   }
+</script>
+</body>
+</html>

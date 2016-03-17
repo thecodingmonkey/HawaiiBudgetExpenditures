@@ -1,0 +1,54 @@
+<html>
+<!--
+  from: https://developers.google.com/chart/interactive/docs/gallery/sankey#multilevel-sankeys
+ -->
+<header>
+<body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<h2>Hawaii Budget by Department ($K)</h2>
+
+<div id="sankey_multiple" style="width: 900px; height: 900px;"></div>
+
+<script type="text/javascript">
+  google.charts.load("current", {packages:["sankey"]});
+  google.charts.setOnLoadCallback(drawChart);
+   function drawChart() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'From');
+    data.addColumn('string', 'To');
+    data.addColumn('number', 'Amount ($K)');
+    data.addRows([
+        [ 'Total Budget', 'TAXATION', 703 ],
+        [ 'Total Budget', 'BUSINESS, ECONOMIC DEVELOPMENT AND TOURISM', 33500 ],
+        [ 'Total Budget', 'LAND AND NATURAL RESOURCES', 42400 ],
+        [ 'Total Budget', 'ATTORNEY GENERAL', 6520 ],
+        [ 'Total Budget', 'AGRICULTURE', 8220 ],
+        [ 'Total Budget', 'PUBLIC SAFETY', 15700 ],
+        [ 'Total Budget', 'ACCOUNTING AND GENERAL SERVICES', 60300 ],
+        [ 'Total Budget', 'GOVERNOR', 60 ],
+        [ 'Total Budget', 'LABOR AND INDUSTRIAL RELATIONS', 8170 ],
+        [ 'Total Budget', 'TRANSPORTATION', 349000 ],
+        [ 'Total Budget', 'DEFENSE', 19400 ],
+        [ 'Total Budget', 'HEALTH', 181000 ],
+        [ 'Total Budget', 'LIEUTENANT GOVERNOR', 200 ],
+        [ 'Total Budget', 'HUMAN RESOURCES DEVELOPMENT', 192 ],
+        [ 'Total Budget', 'HUMAN SERVICES', 1040000 ],
+        [ 'Total Budget', 'BUDGET AND FINANCE', 1180 ],
+        [ 'Total Budget', 'COMMERCE AND CONSUMER AFFAIRS', 2590 ],
+        [ 'Total Budget', 'HAWAIIAN HOME LANDS', 14800 ]
+    ]);
+
+    // Set chart options
+    var options = {
+      height: 700,
+      width: 600,
+    };
+
+    // Instantiate and draw our chart, passing in some options.
+    var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
+    chart.draw(data, options);
+   }
+</script>
+</body>
+</html>
