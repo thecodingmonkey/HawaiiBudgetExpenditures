@@ -14,32 +14,43 @@
 ### simplify the project for prototype purposes, and to show what can be achieved, we decided to summarize data 
 ### at department level only
 
-### Initial cleaning of data was done in Excel
-###   "Dept of", and "Department of" were eliminated for consistency across datasets
-
-### This R script is used to
-### 1. subset data for FY2015
-### 2. clean out white spaces for department names
-### 3. merge budget and expenditure datasets into one dataset called MergedData
-
 ### Data source:
 # Expenditure data : https://data.hawaii.gov/dataset/Expenditures/mkz8-mgjp
 # Approved budget data: https://data.hawaii.gov/dataset/Hawaii-Operating-Budget/p8xe-w4xh
+
+
+
+########## Initial cleaning of data was done in Excel  #############
+
+###   "Dept of", and "Department of" were eliminated for consistency across datasets
+###    Records with negative amount were removed from the dataset
+
+
+
+###########          This R script is used to          ##############
+
+### 1. subset data for FY2015
+### 2. clean out white spaces for department names
+### 3. correct department name
+### 4. merge budget and expenditure datasets into one dataset called MergedData
+
 
 library(reshape)
 library(plyr)
 library(stringr)
 
+setwd("/Users/gamja/Projects/cfh/HawaiiBudgetExpenditures")
+
 ## importing csc data files
 exp <- read.csv("data/Expenditures.csv")
 op <- read.csv("data/budget.csv")
 
-## trimming white spaces
+## trimming white space
 exp$Department <- str_trim(exp$Department, side=c("both"))
 op$Department <- str_trim(op$Department, side=c("both"))
 
-exp[exp$Department=="BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM",]$Department = "BUSINESS, ECONOMIC DEVELOPMENT AND TOURISM"
-
+## Data correction
+exp[exp$Department=="BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM", "Department" ] = "BUSINESS, ECONOMIC DEVELOPMENT AND TOURISM"
 
 
 ## subset data for 2015 and sum the total expenditure amount by department and category (Expenditure data)
@@ -49,10 +60,10 @@ dep_cat_exp15 <- ddply(exp[exp$Fiscal_Year==2015, ], .(Department, Expense_Categ
 dep_cat_op15 <- ddply(op[op$Fiscal.Year==2015,], .(Department), summarize, Budget_Dep15 = sum(approvedAmount))
 
 ## Merging data by Department
-mergedData <- join(dep_cat_exp15, dep_op_15, by=c('Department') , type="left")
+mergedData <- join(dep_cat_exp15, dep_cat_op15, by=c('Department') , type="left")
 names(mergedData) <- c("Department", "Expense_Category", "TotalExpense", "TotalBudget")
 
 ## write to csv file
-write.csv(mergedData, "../data/MergedData.csv") 
+write.csv(mergedData, "data/MergedData1.csv") 
 
  
