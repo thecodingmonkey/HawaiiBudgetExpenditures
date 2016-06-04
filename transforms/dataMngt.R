@@ -39,7 +39,7 @@ library(reshape)
 library(plyr)
 library(stringr)
 
-setwd("/Users/gamja/Projects/cfh/HawaiiBudgetExpenditures")
+setwd("~/Documents/cfh/HawaiiBudgetExpenditures")
 
 ## importing csc data files
 exp <- read.csv("data/Expenditures.csv")
@@ -52,9 +52,10 @@ op$Department <- str_trim(op$Department, side=c("both"))
 ## Data correction
 exp[exp$Department=="BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM", "Department" ] = "BUSINESS, ECONOMIC DEVELOPMENT AND TOURISM"
 
+exp$NumericAmount <- as.numeric(sub("\\$","", as.character(exp$Amount)))
 
 ## subset data for 2015 and sum the total expenditure amount by department and category (Expenditure data)
-dep_cat_exp15 <- ddply(exp[exp$Fiscal_Year==2015, ], .(Department, Expense_Category), summarize, Expediture_DepCat15 = sum(Amount))
+dep_cat_exp15 <- ddply(exp[exp$Fiscal_Year==2015, ], .(Department, Expense_Category), summarize, Expediture_DepCat15 = sum(NumericAmount))
 
 ## subset data for 2015 and sum the total approved budget amount by department (Budget)
 dep_cat_op15 <- ddply(op[op$Fiscal.Year==2015,], .(Department), summarize, Budget_Dep15 = sum(approvedAmount))
@@ -64,6 +65,24 @@ mergedData <- join(dep_cat_exp15, dep_cat_op15, by=c('Department') , type="left"
 names(mergedData) <- c("Department", "Expense_Category", "TotalExpense", "TotalBudget")
 
 ## write to csv file
-write.csv(mergedData, "data/MergedData1.csv") 
+write.csv(mergedData, "data/MergedData2015.csv") 
+
+##
+# 2016
+##
+
+## subset data for 2016 and sum the total expenditure amount by department and category (Expenditure data)
+dep_cat_exp16 <- ddply(exp[exp$Fiscal_Year==2016, ], .(Department, Expense_Category), summarize, Expediture_DepCat15 = sum(NumericAmount))
+
+## subset data for 2016 and sum the total approved budget amount by department (Budget)
+dep_cat_op16 <- ddply(op[op$Fiscal.Year==2016,], .(Department), summarize, Budget_Dep15 = sum(approvedAmount))
+
+## Merging data by Department
+mergedData <- join(dep_cat_exp16, dep_cat_op16, by=c('Department') , type="left")
+names(mergedData) <- c("Department", "Expense_Category", "TotalExpense", "TotalBudget")
+
+## write to csv file
+write.csv(mergedData, "data/MergedData2016.csv") 
+
 
  
