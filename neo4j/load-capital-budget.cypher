@@ -1,4 +1,4 @@
-// Load the Hawaii State Operating budget in a Neo4j graph
+// Load the Hawaii State Capital budget in a Neo4j graph
 
 LOAD CSV WITH HEADERS FROM "https://data.hawaii.gov/api/views/8t8p-2mku/rows.csv?accessType=DOWNLOAD" AS row CREATE (n:BudgetItem)
 SET n = row
